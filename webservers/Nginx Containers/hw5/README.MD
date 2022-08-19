@@ -79,6 +79,19 @@ docker-compose up
 http://hw5:8083/
 ```
 
+### send postman request
+- URL: http://hw5:8083/
+- params: string: ())
+
+### get result (example):
+- connection →keep-alive
+- content-type →text/html; charset=UTF-8
+- date →Fri, 19 Aug 2022 09:41:49 GMT
+- fail →icorrect string (Response from 83e503a64f67)
+- server →nginx/1.21.6
+- transfer-encoding →chunked
+- x-powered-by →PHP/7.4.30
+
 ### stop containers
 ```
 docker-compose down
